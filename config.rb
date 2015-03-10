@@ -21,7 +21,7 @@ activate :blog do |blog|
 
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 10
+  blog.per_page = 7
   blog.page_link = 'page/{num}'
 end
 
@@ -113,17 +113,17 @@ activate :directory_indexes
 ###
 
 # set site URL
-set :site_url, 'http://blog.example.com'
+set :site_url, 'http://ersblog.herokuapp.com/'
 # set site title
-set :site_title, 'Drops Template'
+set :site_title, 'Ers Code, Coffe & Life'
 # set site description (only used for meta description for the moment)
-set :site_description, 'Site Description'
+set :site_description, 'Swift, Code, programming, Apple, iOS, OSX'
 # set site author name
-set :site_author, 'Site Author'
+set :site_author, 'Erison Veshi'
 # set site author profile information
-set :site_author_profile, 'Lorem ipsum dolor sit amet, cu facilis indoctum interpretaris has. Ius ea quod euismod fierent, per in legere gubergren accommodare, ut labitur partiendo urbanitas duo. Tamquam inciderint at sed. Per at nibh graecis intellegebat. Probo brute ancillae sit ex, tota recusabo disputando usu et.'
+set :site_author_profile, 'A blog about proggraming in general. Sharing as iam learning. Carpe Diem!'
 # set site author profile image (should be in images_dir)
-set :site_author_image, 'profile.png'
+set :site_author_image, 'eri.png'
 # when true, the page and site titles will be reversed (page title | site title)
 set :reverse_title, true
 # twitter/facebook/github/linkedin links in author page (otherwise set nil)
