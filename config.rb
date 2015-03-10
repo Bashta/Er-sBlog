@@ -128,9 +128,9 @@ set :site_author_image, 'eri.png'
 set :reverse_title, true
 # twitter/facebook/github/linkedin links in author page (otherwise set nil)
 set :social_links,
-    twitter: 'https://twitter.com',
-    facebook: 'https://facebook.com',
-    github: 'https://github.com/5t111111',
-    linkedin: 'https://linkedin.com'
+    twitter: 'https://twitter.com/NotErisonVeshi',
+    facebook: 'https://www.facebook.com/Erisonve',
+    github: 'https://github.com/Bashta'
+#linkedin: 'https://linkedin.com'
 # set Google Analytics account, like "XX-12345678-9"
 # set :google_analytics_account, 'XX-12345678-9'
